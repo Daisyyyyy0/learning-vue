@@ -13,9 +13,19 @@
     <div id="app">
         {{message}}
     </div>
+
     <div id="counter">
         <h1>{{count}}</h1>
         <button v-on:click="add">+1</button>
+    </div>
+
+    <div id="app2">
+        <span v-if="see">Now you see me</span>
+        <span v-else>Now you don't</span>
+    </div>
+    <br>
+    <div id="app3">
+        <div v-for="step in steps">{{step}}</div>
     </div>
     <script src="app.js"></script>
 

@@ -16,3 +16,21 @@
             },
         },
     });
+
+    new Vue({
+        el: '#app2',
+        data:{
+            see: true,
+        }
+    });
+
+    new Vue({
+        el: '#app3',
+        data:{
+            steps: [
+                'learning JS',
+                'learn vue',
+                'get a higher pay',
+            ]
+        }
+    });
