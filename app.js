@@ -34,3 +34,22 @@
             ]
         }
     });
+
+    new Vue({
+        el: '#counter2',
+        data:{
+            items: [1,2,3,4,5],
+        },
+        methods:{
+            remove(){
+                this.items.pop()
+            },
+        },
+    });
+
+    new Vue({
+        el: '#typeIn',
+        data:{
+            text:''
+        },
+    });

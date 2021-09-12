@@ -27,6 +27,18 @@
     <div id="app3">
         <div v-for="step in steps">{{step}}</div>
     </div>
+
+    <div id="counter2">
+        <ul>
+            <li v-for="item in items">{{item}}</li>
+        </ul>
+        <button v-on:click="remove">-1</button>
+    </div>
+
+    <div id="typeIn">
+        <input type="text" v-model="text" />
+        <span>{{text}}</span>
+    </div>
     <script src="app.js"></script>
 
 </body>
