@@ -10,7 +10,7 @@
         data:{
             count: 0,
         },
-        method:{
+        methods:{
             add(){
                 this.count += 1;
             },
